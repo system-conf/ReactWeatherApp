@@ -1,0 +1,86 @@
+.weather-container {
+  margin: 0 auto;
+  padding: 20px;
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/sulocloud-535a5.appspot.com/o/users%2FGIXjzrsUCFT54mFd9nSrzj73VA33%2F10-12.jpg?alt=media&token=c98c03e7-ad0f-4bd0-99fb-ca412fd80811');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  color: black;
+  position: relative;
+}
+
+.weather-title {
+  color: white;
+  z-index: 3;
+  position: relative;
+}
+
+.weather-cards-blur {
+  backdrop-filter: blur(2px);
+  border-radius: 8px;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  background-color: #0000003f;
+  z-index: 1;
+}
+
+.weather-cards-col {
+  display: flex;
+  gap: 10px;
+  align-items: baseline;
+  justify-content: center;
+}
+
+.weather-card {
+  background-color: #ffffff28;
+  border-radius: 8px;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 10);
+  margin-bottom: 20px;
+  padding: 20px;
+  color: white;
+  z-index: 3;
+}
+
+.weather-card h2 {
+  margin-top: 0;
+  color: white;
+}
+
+.weather-card img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+
+}
+
+.weather-card p {
+  margin: 5px 0;
+  color: white;
+  font-weight: bold;
+}
+
+
+#root {
+  display: flex;
+  flex: 1;
+  margin: 0;
+  text-align: center;
+  height: 100vh;
+  width: 100%;
+}
+
+
+.container {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.raindrop {
+  position: absolute;
+  width: 2px;
+  height: 10px;
+  background-color: #00f;
+  opacity: 0.7;
+}
